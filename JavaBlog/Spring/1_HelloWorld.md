@@ -7,8 +7,8 @@ intelliJ Idea2016.3
 
 ## 新建工程
 如图：
-![1](img\工程选择.jpg)
-![2](img\工程选择2.jpg)
+![1](img/工程选择.jpg)
+![2](img/工程选择2.jpg)
 
 新建一个bean类叫HelloWorld,代码如下
 ```java
@@ -25,7 +25,7 @@ public class HelloWorld {
 }
 ```
 新建一个配置文件applicationContext.xml
-![新建Spring配置文件](img\新建Spring配置文件.jpg)
+![新建Spring配置文件](img/新建Spring配置文件.jpg)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"

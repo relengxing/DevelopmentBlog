@@ -10,15 +10,15 @@ ide是IntelliJ IDEA 2016.2.5，也不是最方便的，还是有很多蛋疼的�
 
 安装Golang的话就是在[Go官网](https://golang.org/dl/)自己Download
 windows下是一个msi的文件
-![Go安装包](img\1_Go安装包.jpg)
+![Go安装包](img/1_Go安装包.jpg)
 装在哪都行，装好以后我的电脑是不用配置什么的，如果你的电脑要设置什么的话，我也无能为力。。
 IntelliJ IDEA自行安装和破解，我这里的破解也不是完整破解，好像只能用到2017年2月。
 idea安装go
-![idea安装go](img\1_idea安装Go.png)
+![idea安装go](img/1_idea安装Go.png)
 安装好后重启，新建工程
 idea有个很蛋疼的地方，就是每次换一个工程的时候要重新设置Edit Configurations
 设置成如图这样就行了，有两个条件package main ,包含main方法
-![Edit Configurations](img\1_GoeditRun.jpg)
+![Edit Configurations](img/1_GoeditRun.jpg)
 
 hello world的代码如下：
 ```go
@@ -32,7 +32,7 @@ func main() {
 }
 ```
 
-![运行结果](img\1_运行结果.jpg)
+![运行结果](img/1_运行结果.jpg)
 
 
 这一篇的安装环境是有点坑的。
@@ -48,4 +48,4 @@ func main() {
 
 
 还有在做面向对象的时候，我把Student这个结构体放在一个同文件夹下，package名字相同都是main,但是main里面无法调用，我记得原因是main.go编译了，但是Student.go没编译。这里因为我做过很多操作，也不知道具体是哪条有用。我觉得应该是这样，看下图，照着改一下。如果不行可能和GOPATH有关，这个在环境变量里设置一下，我的工程目录是放在$GOPATH/src下面的。我这里就提供一个方向。如果有人遇到和我一样的问题，可以往这个方向试试
-![遇到的问题](img\1_wenti.jpg)
+![遇到的问题](img/1_wenti.jpg)

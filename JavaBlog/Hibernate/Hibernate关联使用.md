@@ -5,24 +5,24 @@
 
 新建一个数据库 hibernate
 新建两张表：student和grade
-![学生](img\descstudent.jpg)
-![年级](img\descgrade.jpg)
+![学生](img/descstudent.jpg)
+![年级](img/descgrade.jpg)
 
 student的s_classid外键关联于grade的g_id
 
 可以先在里面随便插入几个数据。
 年级数据:
-![年级数据](img\年级数据.jpg)
+![年级数据](img/年级数据.jpg)
 学生数据:
-![学生数据](img\学生数据.jpg)
+![学生数据](img/学生数据.jpg)
 
 先生成类
-![生成类](img\生成.jpg)
-![生成选项](img\生成选项.jpg)
+![生成类](img/生成.jpg)
+![生成选项](img/生成选项.jpg)
 有些地方如果不一样自己研究一下
 
 完成后bean目录下如下
-![BEAN目录](img\bean目录.jpg)
+![BEAN目录](img/bean目录.jpg)
 代码都是自动生成的，理论上应该是一样的，所以这里就不贴了。
 hibernate.cfg.xml里面记得修改
 ```xml
