@@ -7,10 +7,10 @@ intellij idea 2016.3
 
 ## 新建工程
 在idea中新建SpringMvc项目是很简单的，两步
-![新建工程1](img\新建工程1.jpg)
-![新建工程2](img\新建工程2.jpg)
+![新建工程1](img/新建工程1.jpg)
+![新建工程2](img/新建工程2.jpg)
 然后就创建了如下的工程目录
-![工程结构](img\工程结构.jpg)
+![工程结构](img/工程结构.jpg)
 
 在WEB-INF目录下创建一个page的文件夹，在page文件夹下创建一个hello.jsp的文件
 内容如下:
@@ -68,16 +68,16 @@ public class HelloController {
 ```
 
 修改一下设置
-![设置](img\设置.jpg)
+![设置](img/设置.jpg)
 这两个fix点一下，弹出来的东西选第一个即可
-![问题](img\fix.jpg)
+![问题](img/fix.jpg)
 
 然后设置运行环境
-![edit](img\edit.jpg)
-![edit](img\edit2.jpg)
-![edit](img\edit3.jpg)
+![edit](img/edit.jpg)
+![edit](img/edit2.jpg)
+![edit](img/edit3.jpg)
 完成所有操作后就可以运行了
-![运行结果](img\运行结果.jpg)
+![运行结果](img/运行结果.jpg)
 
 ## 简要分析
 web.xml中
