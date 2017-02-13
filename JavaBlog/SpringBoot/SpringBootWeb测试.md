@@ -71,7 +71,7 @@ java代码如下：
 接收到Get请求
 ```
 GET和POST可以正常使用
-PUT和elete是通过GET访问的，也就是说无效
+PUT和Delete是通过GET访问的，也就是说无效
 资料是说表单只支持GET和POST
 ### 测试三：使用ajax访问
 页面是这样的
